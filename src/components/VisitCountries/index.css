@@ -1,0 +1,39 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161624;
+  height: 100vh;
+  padding: 0px 250px;
+}
+.main-heading {
+  color: #f8fafc;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.countries-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  height: 45%;
+  padding-left: 0px;
+  overflow-y: auto;
+}
+.visited-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.not-visited-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.not-visited-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}

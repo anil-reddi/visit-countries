@@ -1,0 +1,40 @@
+.country-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+.country-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.visited {
+  color: #cbd5e1;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 90px;
+  text-align: center;
+}
+.visit-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  width: 90px;
+  height: 33px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  border: 1px solid #334155;
+}
